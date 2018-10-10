@@ -1,8 +1,8 @@
 {
   "name": "fcash-message",
   "version": "1.0.3",
-  "description": "Bitcoin Messages for Fcash",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "Fcash Messages for Fcash",
+  "author": "Fcash <dev@fcash.cash>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "bitcoin",
-    "bitcore",
+    "fcore",
     "btc",
     "satoshi",
     "message",
@@ -26,7 +26,7 @@
     "fcash-lib": "^0.13.7"
   },
   "devDependencies": {
-    "fcash-build": "bitpay/fcash-build",
+    "fcash-build": "fcash-project/fcash-build",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"

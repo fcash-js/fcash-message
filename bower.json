@@ -4,15 +4,15 @@
   "version": "1.0.3",
   "homepage": "https://github.com/fcash-project/fcash-message",
   "authors": [
-    "BitPay"
+    "Fcash"
   ],
-  "description": "Bitcoin Message Verification and Signing for Fcash",
+  "description": "Fcash Message Verification and Signing for Fcash",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "bitcore",
+    "fcore",
     "btc",
     "satoshi",
     "message",

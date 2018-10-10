@@ -1,5 +1,5 @@
-<img src="http://fcore.io/css/images/module-message.png" alt="bitcore message" height="35">
-# Bitcoin Message Verification and Signing for Fcash
+<img src="http://www.fcash.cash/css/images/module-message.png" alt="fcore message" height="35">
+# Fcash Message Verification and Signing for Fcash
 
 
 [![NPM Package](https://img.shields.io/npm/v/fcash-message.svg?style=flat-square)](https://www.npmjs.org/package/fcash-message)
@@ -8,7 +8,7 @@
 
 fcash-message adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main fcore repo](https://github.com/fcash-project/bitcore) for more information.
+See [the main fcore repo](https://github.com/fcash-project/fcore) for more information.
 
 ## Getting Started
 
@@ -46,5 +46,5 @@ See [CONTRIBUTING.md](https://github.com/fcash-project/fcore/blob/master/CONTRIB
 
 Code released under [the MIT license](https://github.com/fcash-project/fcore/blob/master/LICENSE).
 
-Copyright 2013-2015 BitPay, Inc. Fcash is a trademark maintained by BitPay, Inc.
+Copyright 2013-2015 Fcash, Inc. Fcash is a trademark maintained by Fcash, Inc.
 
