@@ -2,7 +2,7 @@
   "name": "fcash-message",
   "main": "./fcash-message.min.js",
   "version": "1.0.3",
-  "homepage": "https://github.com/fcash-project/fcash-message",
+  "homepage": "https://github.com/fcash-js/fcash-message",
   "authors": [
     "Fcash"
   ],
@@ -12,7 +12,7 @@
   ],
   "keywords": [
     "bitcoin",
-    "fcore",
+    "fcash-base",
     "btc",
     "satoshi",
     "message",

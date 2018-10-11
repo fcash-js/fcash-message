@@ -12,7 +12,7 @@
   },
   "keywords": [
     "bitcoin",
-    "fcore",
+    "fcash-base",
     "btc",
     "satoshi",
     "message",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fcash-project/fcash-message.git"
+    "url": "https://github.com/fcash-js/fcash-message.git"
   },
   "dependencies": {
     "fcash-lib": "^0.13.7"

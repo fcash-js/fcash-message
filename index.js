@@ -1,4 +1,4 @@
-var fcore = require('fcash-lib');
-fcore.Message = require('./lib/message');
+var fcashBase = require('fcash-lib');
+fcashBase.Message = require('./lib/message');
 
-module.exports = fcore.Message;
+module.exports = fcashBase.Message;

@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var fcoreTasks = require('fcash-build');
+var fcashBaseTasks = require('fcash-build');
 
-fcoreTasks('message');
+fcashBaseTasks('message');
 
 gulp.task('default', ['lint', 'coverage']);

@@ -1,14 +1,14 @@
-<img src="http://www.fcash.cash/css/images/module-message.png" alt="fcore message" height="35">
+<img src="http://www.fcash.cash/css/images/module-message.png" alt="fcash-base message" height="35">
 # Fcash Message Verification and Signing for Fcash
 
 
 [![NPM Package](https://img.shields.io/npm/v/fcash-message.svg?style=flat-square)](https://www.npmjs.org/package/fcash-message)
-[![Build Status](https://img.shields.io/travis/fcash-project/fcash-message.svg?branch=master&style=flat-square)](https://travis-ci.org/fcash-project/fcash-message)
-[![Coverage Status](https://img.shields.io/coveralls/fcash-project/fcash-message.svg?style=flat-square)](https://coveralls.io/r/fcash-project/fcash-message?branch=master)
+[![Build Status](https://img.shields.io/travis/fcash-js/fcash-message.svg?branch=master&style=flat-square)](https://travis-ci.org/fcash-js/fcash-message)
+[![Coverage Status](https://img.shields.io/coveralls/fcash-js/fcash-message.svg?style=flat-square)](https://coveralls.io/r/fcash-js/fcash-message?branch=master)
 
 fcash-message adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main fcore repo](https://github.com/fcash-project/fcore) for more information.
+See [the main fcash-base repo](https://github.com/fcash-js/fcash-base) for more information.
 
 ## Getting Started
 
@@ -23,10 +23,10 @@ bower install fcash-message
 To sign a message:
 
 ```javascript
-var fcore = require('fcash-lib');
+var fcash-base = require('fcash-lib');
 var Message = require('fcash-message');
 
-var privateKey = fcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = fcash-base.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -40,11 +40,11 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/fcash-project/fcore/blob/master/CONTRIBUTING.md) on the main fcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/fcash-js/fcash-base/blob/master/CONTRIBUTING.md) on the main fcash-base repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/fcash-project/fcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/fcash-js/fcash-base/blob/master/LICENSE).
 
 Copyright 2013-2015 Fcash, Inc. Fcash is a trademark maintained by Fcash, Inc.
 
