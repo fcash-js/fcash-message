@@ -1,6 +1,6 @@
 {
   "name": "fcash-message",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fcash Messages for Fcash",
   "author": "Fcash <dev@fcash.cash>",
   "main": "index.js",
